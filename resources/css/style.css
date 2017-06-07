@@ -6,6 +6,8 @@
   opacity: 0.9;
 }
 
+/* Header section styling */
+
 .header{
   display: inline-flex;
   position: fixed;
@@ -14,6 +16,7 @@
   height: 69px;
   border-bottom: 1px solid seashell;
   width: 100%;
+  z-index: 20;
 }
 
 .header img{
@@ -27,10 +30,33 @@
   justify-content: flex-end;
   width: 100%;
   padding: 0px 20px;
-
 }
 
 .nav a{
   padding: 0px 10px;
   text-decoration: underline;
+}
+
+/* Lead image styling */
+
+.leadimage{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+#text1{
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+h1{
+  font-size: 30px
 }
